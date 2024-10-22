@@ -2,8 +2,10 @@
   "name": "boilerplate-nodejs",
   "version": "1.0.0",
   "description": "Este repositorio es tu punto de partida ideal para proyectos de Node.js. Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
+  "main": "index.js",
   "type": "module",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon --exec ts-node --esm src/server.ts",
     "build": "tsc && node copyEjs.js",
     "lint": "eslint src",
